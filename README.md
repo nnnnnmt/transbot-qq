@@ -10,7 +10,7 @@ robot消息接收基于go cq-http框架开发，需要程序于5701端口上监�
 robot消息发送采用windows桌面端QQ 模拟win32剪贴板操作进行  
 bot所有日志记录于mysql数据库中  
   
-文件夹格式  
+文件夹格式：  
 ./picture/1.jpg......  
 ./assigned_nicknames.txt  （记录用户与当前匿名昵称的对应关系 自动生成）  
 ./user_ids.txt （所有用户信息 需手动添加）  
@@ -19,4 +19,8 @@ bot所有日志记录于mysql数据库中
 ./main.py  
   
 命令一览：  
-![Image text](https://raw.github.com/nnnnnmt/repositpry/master/transbot-qq/img-folder/命令格式.jpg)
+纯文字/文字表情    [匿名昵称]：[文字消息]  （去除表情和图片）  
+纯图片     [匿名昵称]：[图片]  
+@changename [QQ号]     更换自己的匿名昵称  
+@blacklist set [匿名昵称] [小时数]   禁言  
+@blacklist reset [匿名昵称]   解除禁言  
