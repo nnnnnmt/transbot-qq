@@ -19,3 +19,4 @@ bot所有日志记录于mysql数据库中
 ./main.py  
   
 命令一览：  
+![Image text](https://raw.github.com/nnnnnmt/repositpry/master/transbot-qq/img-folder/命令格式.jpg)
